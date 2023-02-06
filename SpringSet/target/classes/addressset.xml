@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+<bean id="myAddress" class="com.Address">
+<property name="addressSet">
+<set>
+<value>Bangalore</value>
+<value>Ballari</value>
+<value>Ballari</value>
+<value>Mysore</value>
+<value>Mandya</value>
+<value></value>
+<value></value>
+<value>Madikeri</value>
+<value>Madikeri</value>
+</set>
+</property>
+
+<property name="zipcode">
+<set>
+<value>583121</value>
+<value>560060</value>
+<value>470010</value>
+<value>500730</value>
+
+
+</set>
+
+</property>
+</bean>
+
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+<bean id="myFood" class="com.FoodItems">
+	<property name="foodName">
+		<list>
+			<value>Dosa</value>
+			<value>Idly</value>
+			<value>Kabab</value>
+			<value>Biriyani</value>
+		</list>
+	</property>
+	<property name="category">
+		<list>
+			<value>Veg</value>
+			<value>Nonveg</value>
+		</list>
+	</property>
+	<property name="cost">
+		<list>
+			<value>100</value>
+			<value>50</value>
+			<value>120</value>
+			<value>150</value>
+		</list>
+	</property>
+</bean>
+
+</beans>
